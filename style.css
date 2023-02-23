@@ -1,0 +1,90 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*Nav Bar*/
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0px;
+    height: 85px;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px;
+    border-bottom: 1px solid white;
+    opacity: .85;
+    text-align: right;
+}
+
+.kblogo {
+    width: 4.5rem;
+    height: 4.5rem;
+    float: left;
+    padding-top: .5rem;
+}
+.nav ul {
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: Calibri light, 'Trebuchet MS', sans-serif;
+    margin: 1rem;
+    list-style: none;
+}
+
+.nav a {
+    color: silver;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration:underline;
+}
+
+
+
+
+/*About*/
+
+#about {
+    margin: 100px 5rem;
+    padding: 15px 50px;
+    width: 80%;
+    display: block;
+}
+
+.myname {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline; 
+    font-size: 3rem;
+}
+
+.description {
+    
+
+}
+
+.description p {
+    padding-top: 2rem;
+    float: left;
+    display: inline-block;
+    width:60%;
+    font-size: 2rem;
+    font-family: arial narrow;
+}
+
+.headshot {
+    width: 20rem;
+    height: 20rem;
+    float: right;
+    display: inline-block;
+    border-radius: 10rem;
+}
