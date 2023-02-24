@@ -10,13 +10,13 @@
     <body>
         <!--Nav Bar-->
         <nav>
-            <img class="kblogo" src="resources/images/KB Logo White transparent.png">
+            <a href="#about"><img class="kblogo" src="resources/images/KB Logo White transparent.png"></a>
             <ul class="nav">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#knowledge">Experience</a></li>
+                <li><a href="#interests">Characteristics</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#interests">Interests</a></li>
             </ul>
         </nav>
 
@@ -31,34 +31,127 @@
 
         <!--Projects-->
         <div id="projects">
-            <div class="container-projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
                 <div class="project-item">
-                    
+                    <img src="resources/images/Summit Club.jpg">
+                        <h3>Summit Club</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/summitclub/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/summitclub">See Code</a>
+                </div>
+                <div class="project-item">
+                    <img src="resources/images/Tea Cozy.jpg">
+                        <h3>TeaCozy</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/teacozy/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/teacozy">See Code</a>
+                </div>
+                <div class="project-item">
+                    <img src="resources/images/KB Styleguide.jpg">
+                        <h3>KB Styleguide</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/styleguide/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/styleguide">See Code</a>
+                </div>
+                <div class="project-item">
+                    <img src="resources/images/Brews and Bubbies.jpg">
+                        <h3>Brews and Bubbies</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/brewsandbubbies/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/brewsandbubbies">See Code</a>
+                </div>
+                <div class="project-item">
+                    <img src="resources/images/Fotomatic.jpg">
+                        <h3>Fotomatic</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/fotomatic/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/fotomatic">See Code</a>
+                </div>
+                <div class="project-item">
+                    <img src="resources/images/Cheatsheet.jpg">
+                        <h3>Cheatsheet</h3>
+                        <a class="weblinks" href="https://kelfromdablock.github.io/cheatsheet/">See Site</a>
+                        <a class="codelinks" href="https://github.com/kelfromdablock/cheatsheet">See Code</a>
                 </div>
             </div>
         </div>
 
         <!--Knowledge-->
         <div id="knowledge">
-            <div class="knowledge-container">
+            <h2>Experience</h2>
+            <div class="knowledge-container1">
                 <div class="knowledge-item">
-
+                    <img src="resources/images/NIU Logo.png">
+                    <h3>Northern Illinois University</h3>
+                    <h4>Bachelors in Science</h4>
+                </div>
+                <div class="knowledge-item">
+                    <img src="resources/images/codecademy Logo.jpg">
+                    <h3>Codecademy</h3>
+                    <h4>Front End Developer</h4>
+                </div>
+                </div>
+            <div class="knowledge-container2">
+                <div class="knowledge-type">
+                    <img src="resources/images/html circle.webp">
+                </div>
+                <div class="knowledge-type">
+                    <img src="resources/images/css logo circle.webp">
+                </div>
+                <div class="knowledge-type">
+                    <img src="resources/images/js logo circle1.png">
+                </div>
+                <div class="knowledge-type">
+                    <img src="resources/images/git logo circle.png">
+                </div>
+                <div class="knowledge-type">
+                    <img src="resources/images/github.png">
+                </div>
+            </div>
+            <h4>Downloading..</h4>
+            <div class="downloading-container">
+                <div class="download-type">
+                    <img src="resources/images/react logo1.png">
+                </div>
+                <div class="download-type">
+                    <img src="resources/images/redux logo.png">
                 </div>
             </div>
         </div>
 
         <!--Interests-->
         <div id="interests">
-
+            <h2>Characteristics </h2>
+            <div class="char">
+                <h5>hiker</h5>
+                <h5>knowledge seeker</h5>
+                <h5>meditator</h5>
+                <h5>excersise enthusiast</h5>
+                <h5>organizer</h5>
+                <h5>book worm</h5>
+                <h5>adventurer</h5>
+                <h5>animal lover</h5>
+                </div>
         </div>
 
         <!--Contact-->
         <div id="contact">
+            <h2>Contact</h2>
             <div class="mycontact">
-
+                <h3>Kelly Bernacki</h3>
+                <h4>k-----3--@yahoo.com</h4>
+                <h4>Feel free to fill in the form and provide me with your information to get in touch.</h4>
+                <a href="https://github.com/kelfromdablock"><img src="resources/images//github logo circle1.jpg"></a>
+                <a href="https://www.linkedin.com/in/kelly-quinn-581a0b58"><img src="resources/images/linkedin.png"></a>
             </div>
             <div class="contactme">
-
+                <form action="/contactsheet.html" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required minlength="2">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone">
+                <label for="message">Message (optional)</label>
+                <input type="textarea" name="message" id="message">
+                <input type="submit" value="Send">
+                </form>
             </div> 
         </div>
 

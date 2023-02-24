@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,12 +14,13 @@ nav {
     display: block;
     position: fixed;
     top: 0px;
-    height: 85px;
+    height: 5.3rem;
     width: 100%;
     z-index: 3;
     border-bottom: 1px;
     border-bottom: 1px solid white;
-    opacity: .85;
+    opacity: .86;
+    background-color: black;
     text-align: right;
 }
 
@@ -57,8 +59,10 @@ nav {
 #about {
     margin: 100px 5rem;
     padding: 15px 50px;
-    width: 80%;
+    height: auto;
+    width: auto;
     display: block;
+    position: relative;
 }
 
 .myname {
@@ -68,8 +72,8 @@ nav {
 }
 
 .description {
-    
-
+    height: auto;
+    max-height:3rem;
 }
 
 .description p {
@@ -77,6 +81,9 @@ nav {
     float: left;
     display: inline-block;
     width:60%;
+    min-width: 15rem;
+    height: auto;
+    max-height:3rem;
     font-size: 2rem;
     font-family: arial narrow;
 }
@@ -87,4 +94,202 @@ nav {
     float: right;
     display: inline-block;
     border-radius: 10rem;
+}
+
+@media only screen and (max-width:1075px) {
+    .headshot {
+        max-width: 10rem;
+        max-height: 10rem; 
+    }
+    .decription p{
+        max-width:25rem;
+        max-height:30rem;
+    }
+
+    #projects {
+
+    }
+}
+
+
+/*Projects*/
+#projects {
+    margin-top: 30rem;
+    width: auto;
+    min-width: 62rem;
+    height: auto;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+#projects h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.projects-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin: auto;
+}
+
+.project-item {
+    padding: 1rem;
+    opacity: .95;
+}
+
+.project-item img {
+    width: 20rem;
+    height: 12rem;
+
+}
+
+#projects h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#projects a {
+    color: lightslategray;
+    font-family: Arial narrow;
+}
+
+
+
+
+/*Experience*/
+
+#knowledge { 
+    margin-top: 15rem;
+    font-family: arial;
+    text-align: center;
+}
+
+#knowledge h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+
+#knowledge h3{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+#knowledge h4{
+    margin: 3px 0;
+}
+ 
+
+.knowledge-container1 {
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+.knowledge-item {
+    display: inline-block;
+    width: 400px;
+    margin: 15px 50px 15px 50px
+}
+
+.knowledge-item img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.knowledge-container2 {
+    display: block;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.knowledge-type {
+    display: inline-block;
+}
+
+.knowledge-type img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.downloading-container {
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    margin: 1rem auto; 
+}
+
+.download-type {
+    display: inline-block;
+}
+
+.download-type img{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+/*Interests*/
+
+#interests {
+    margin-top: 15rem;
+    font-family: arial;
+}
+#interests h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.char {
+    display: block;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/1288919273/vector/abstract-black-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=3Nla_y3od-L3WaoY7i6fZzxfqNWPgPip3SwcOHUpOQ8=);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 6rem;
+    padding: 6rem 0;
+}
+
+.char h5 {
+    font-size: 1.7rem;
+    border: 1px solid white;
+    padding: 3px;
+    margin: 6px 5px;
+    display: inline-block;
+    opacity: .7;
+    border-radius: 5px;
+}
+
+
+/*Contact*/
+
+#contact {
+    display: block;
+}
+
+#contact h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.mycontact {
+    font-family: arial;
+}
+
+.mycontact img {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    float: left;
+}
+
+.contactme {
+
 }
