@@ -79,7 +79,7 @@ nav {
     height: auto;
     max-height:3rem;
     font-size: 2rem;
-    font-family: arial narrow;
+    font-family: arial narrow, Roboto;
 }
 
 .headshot {
