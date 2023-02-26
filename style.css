@@ -74,7 +74,6 @@ nav {
 .description p {
     padding-top: 2rem;
     float: left;
-    display: inline-block;
     width:60%;
     min-width: 15rem;
     height: auto;
@@ -87,13 +86,12 @@ nav {
     width: 20rem;
     height: 20rem;
     float: right;
-    display: inline-block;
     border-radius: 10rem;
 }
 
 /*Projects*/
 #projects {
-    margin-top: 30rem;
+    margin-top: 27rem;
     width: auto;
     min-width: 62rem;
     height: auto;
@@ -131,11 +129,25 @@ nav {
 
 #projects h3 {
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
 }
 
 #projects a {
-    color: lightslategray;
-    font-family: Arial narrow;
+    color: rgb(154, 155, 153);
+    font-family: Arial;
+    padding: 0 1rem; 
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+#projects a:visited {
+    color: rgb(128, 128, 128);;
 }
 
 
@@ -144,7 +156,7 @@ nav {
 /*Experience*/
 
 #knowledge { 
-    margin-top: 15rem;
+    margin-top: 8rem;
     font-family: arial;
     text-align: center;
     opacity: .7;
@@ -220,7 +232,7 @@ nav {
 /*Interests*/
 
 #interests {
-    margin-top: 15rem;
+    margin-top: 8rem;
     font-family: arial;
     opacity: .7;
 }
@@ -256,7 +268,7 @@ nav {
 
 #contact {
     display: block;
-    margin-top: 10rem;
+    margin-top: 6rem;
     opacity: .7;
 }
 
@@ -323,6 +335,7 @@ input, textarea {
 
 input[type="submit"] {
     cursor: pointer;
+    font-family: arial;
 }
 
 
@@ -333,10 +346,10 @@ input[type="submit"] {
     }
     .decription p{
         max-width:25rem;
-        max-height:30rem;
+        max-height:20rem; 
     }
 
     #projects {
-
+        margin-top: 40rem;
     }
 }
